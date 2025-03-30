@@ -841,7 +841,7 @@ import httpx
 def analyze_sentiment():
     url = "https://api.openai.com/v1/chat/completions"
     headers = {{
-        "Authorization": "sk-proj-ysjDlo0C_q6sc0LuL6BncpDkT3BlbkFJWnAz4jKJlrkQ7NanNG6KGsbUIVroOaWER",
+        "Authorization": "Dummy_api_key",
         "Content-Type": "application/json"
     }}
     payload = {{
